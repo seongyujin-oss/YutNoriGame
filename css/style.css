@@ -26,14 +26,14 @@ h1{ padding: 12px 0; }
  .playground>.piece_boards>.players>.red>span{ /*background-color: #c43; */ 
     background:url(../img/redbone1.png) no-repeat center/contain}
 
-    
+
 .ui-draggerble-dragging{ transform: scale(1.4); box-shadow: 0 5px 15px; rgba(0,0,0,0.5);
     z-index: 100 !important;}
 
 
 .randombox{ position: fixed; left: 0; top: 0; width: 100%; height: 100vh;
     background:rgba(0, 0, 0, 0.3); cursor: pointer; display: flex; justify-content: center;
-    align-items: center; display: none; }
+    align-items: center; display: none; z-index:99999;}
 .control>.info{ font-size: 24px; font-weight: bold; margin-bottom: 14px; border-radius: 10px;
     background: #eef; color: #46e; text-align: center; padding: 6px 0; }
 .control>button{ display: block; margin-bottom: 20px; padding: 15px; font-size: 20px;
