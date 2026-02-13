@@ -10,10 +10,10 @@ h1{ padding: 12px 0; }
 .playground>.piece_boards{ margin-top: 24px; display: flex; justify-content: center;
     gap: 20px; }
 .playground>.piece_boards>.result{ height: 80px; width: 150px; 
-    background: url(../IMG/RedBowl.png) no-repeat center/contain ;
+    background: url("../img/RedBowl.png") no-repeat center/contain ;
     border: 2px solid #900; }
 .playground>.piece_boards>.players{ height: 80px; width: 150px; 
-    background: url(../IMG/blueBowl.png) no-repeat center/contain;
+    background: url("../img/blueBowl.png") no-repeat center/contain;
     border: 2px solid #009; /**/ }
 .playground>.piece_boards>.players>div{ height: 40px; box-sizing: border-box; position: relative; }
 /* .playground>.piece_boards>.players>.blue{  border-bottom:1px solid #009;   } */
@@ -22,9 +22,9 @@ h1{ padding: 12px 0; }
     cursor: pointer; position: absolute; left: 0; top: 0; } 
 
  .playground>.piece_boards>.players>.blue>span{ /*background-color: #46e;*/ 
-    background: url(../IMG/bluebone1.png) no-repeat center/contain; }
+    background: url("../img/bluebone1.png") no-repeat center/contain; }
  .playground>.piece_boards>.players>.red>span{ /*background-color: #c43; */ 
-    background:url(../img/redbone1.png) no-repeat center/contain}
+    background:url("../img/redbone1.png") no-repeat center/contain}
 
 
 .ui-draggerble-dragging{ transform: scale(1.4); box-shadow: 0 5px 15px; rgba(0,0,0,0.5);
